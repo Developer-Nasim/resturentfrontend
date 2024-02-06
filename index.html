@@ -11,11 +11,15 @@
         
 		<!-- CSS here -->
         <!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
         <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <style>
+ 
+         </style>
     </head>
     <body>
 
@@ -284,7 +288,69 @@
                         <span>raleigh</span>
                     </a>
                 </li>
-            </ul>
+            </ul> 
+            <div class="other_locations"> 
+                <label for="shipper_state_state">Also Check Other Locations</label>
+                <div class="ui fluid search selection dropdown">
+                    <input type="hidden" name="shipper_state_state">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Select State</div>
+                    <div class="menu">
+                        <div class="item" data-value="">State</div>
+                        <div class="item" data-value="AL">Alabama</div>
+                        <div class="item" data-value="AK">Alaska</div>
+                        <div class="item" data-value="AZ">Arizona</div>
+                        <div class="item" data-value="AR">Arkansas</div>
+                        <div class="item" data-value="CA">California</div>
+                        <div class="item" data-value="CO">Colorado</div>
+                        <div class="item" data-value="CT">Connecticut</div>
+                        <div class="item" data-value="DE">Delaware</div>
+                        <div class="item" data-value="DC">District Of Columbia</div>
+                        <div class="item" data-value="FL">Florida</div>
+                        <div class="item" data-value="GA">Georgia</div>
+                        <div class="item" data-value="HI">Hawaii</div>
+                        <div class="item" data-value="ID">Idaho</div>
+                        <div class="item" data-value="IL">Illinois</div>
+                        <div class="item" data-value="IN">Indiana</div>
+                        <div class="item" data-value="IA">Iowa</div>
+                        <div class="item" data-value="KS">Kansas</div>
+                        <div class="item" data-value="KY">Kentucky</div>
+                        <div class="item" data-value="LA">Louisiana</div>
+                        <div class="item" data-value="ME">Maine</div>
+                        <div class="item" data-value="MD">Maryland</div>
+                        <div class="item" data-value="MA">Massachusetts</div>
+                        <div class="item" data-value="MI">Michigan</div>
+                        <div class="item" data-value="MN">Minnesota</div>
+                        <div class="item" data-value="MS">Mississippi</div>
+                        <div class="item" data-value="MO">Missouri</div>
+                        <div class="item" data-value="MT">Montana</div>
+                        <div class="item" data-value="NE">Nebraska</div>
+                        <div class="item" data-value="NV">Nevada</div>
+                        <div class="item" data-value="NH">New Hampshire</div>
+                        <div class="item" data-value="NJ">New Jersey</div>
+                        <div class="item" data-value="NM">New Mexico</div>
+                        <div class="item" data-value="NY">New York</div>
+                        <div class="item" data-value="NC">North Carolina</div>
+                        <div class="item" data-value="ND">North Dakota</div>
+                        <div class="item" data-value="OH">Ohio</div>
+                        <div class="item" data-value="OK">Oklahoma</div>
+                        <div class="item" data-value="OR">Oregon</div>
+                        <div class="item" data-value="PA">Pennsylvania</div>
+                        <div class="item" data-value="RI">Rhode Island</div>
+                        <div class="item" data-value="SC">South Carolina</div>
+                        <div class="item" data-value="SD">South Dakota</div>
+                        <div class="item" data-value="TN">Tennessee</div>
+                        <div class="item" data-value="TX">Texas</div>
+                        <div class="item" data-value="UT">Utah</div>
+                        <div class="item" data-value="VT">Vermont</div>
+                        <div class="item" data-value="VA">Virginia</div>
+                        <div class="item" data-value="WA">Washington</div>
+                        <div class="item" data-value="WV">West Virginia</div>
+                        <div class="item" data-value="WI">Wisconsin</div>
+                        <div class="item" data-value="WY">Wyoming</div>
+                    </div>
+                </div> 
+            </div>
         </div>
         <div class="locationModalBg"></div>
 
@@ -344,7 +410,13 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- <script src="assets/js/aos.js"></script>  -->
         <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script> 
         <script src="assets/js/main.js"></script>
+        <script>
+ $('.ui.dropdown')
+  .dropdown()
+;
+         </script>
     </body>
 </html>
 

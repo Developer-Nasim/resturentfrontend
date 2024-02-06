@@ -523,17 +523,17 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Open Sans';
 }
 
-.locationModal ul {
+.locationModal > ul {
     display: flex;
     gap: 6px;
     justify-content: space-between;
 }
 
-.locationModal ul li {
+.locationModal > ul li {
     width: 25%;
 }
 
-.locationModal ul a {
+.locationModal > ul a {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -549,12 +549,21 @@ body::-webkit-scrollbar-thumb {
     gap: 4px;
 }
 
-.locationModal ul a img {max-width: 50px;}
+.locationModal > ul a img {max-width: 50px;}
 
-.locationModal ul a:hover {
+.locationModal > ul a:hover {
     color: #fff;
 }
+.other_locations {
+  margin-top: 20px;
+}
 
+.other_locations label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 20px;
+}
 /*============ Area End =============*/
 
 
