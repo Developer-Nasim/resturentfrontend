@@ -1,0 +1,7 @@
+import "./jquery-3.4.1.min.js"
+import "./popper.min.js"
+import "./bootstrap.min.js"
+import "./owl.carousel.min.js"
+import "./https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"
+import "./jquery.nice-select.min.js"
+import "./main.js" 

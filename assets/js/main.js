@@ -14,14 +14,8 @@
     $('.mobile-menu').toggleClass('siteBar');   
   }); 
 
- // Modal 
-  $('.locationModal ul a').click( function (){ 
-    $('.locationModal').fadeOut(800) 
-    $('.locationModalBg').fadeOut(1000) 
-  }); 
 
-
-  // owlCarousel
+  // Slider of here
   $(".hero__slider").owlCarousel({
     loop: true,
     margin: 30,
@@ -37,9 +31,8 @@
     nav: false,
     dots: true
   });
-
-
-  // owlCarousel
+ 
+  // Awards slider
   $(".awards__slider").owlCarousel({
     autoplay:true,
     autoplayTimeout:2000,
@@ -67,7 +60,7 @@
     }
   });
 
-  // owlCarousel
+  // Test slider
   $(".Test__slider").owlCarousel({
     autoplay:true,
     autoplayTimeout:2000,
@@ -96,19 +89,112 @@
     }
   });
 
+  // Initial custom select
+  $('.select__blk select').niceSelect();
 
+  // Select Items to search
+  function SelectItem() {
 
-  // page Animation
-  // AOS.init({
-  //   mirror: true,
-  //   duration: 1500,
-  //   initClassName: 'aos-init',
-  //   once: true,
-  // });
+    // $('.select_btn.all_btn').click(()=>{
+    //   const Btns = document.querySelectorAll('.select_item.top_items .select_btn')
+    //   Btns.forEach(btn => {
+    //     btn.classList.remove('active')
+    //   }) 
+    //   $(this).addClass('active')
+    //   const AllItems = document.querySelectorAll('.MenusAllItems > div') 
+    //   AllItems.forEach(item => {
+    //     item.style.display = "block"
+    //   }) 
+    // })
 
-  // data-aos="fade-up" 
-  // data-aos-delay="300" 
+    $('.select_box button').click(function(e) {
+      if (e.target.classList.contains('all_btn')) {
+        const Btns = document.querySelectorAll('.select_item.top_items .select_btn')
+        Btns.forEach(btn => {
+          btn.classList.remove('active')
+        }) 
+        $(this).addClass('active')
+        const AllItems = document.querySelectorAll('.MenusAllItems > div') 
+        AllItems.forEach(item => {
+          item.style.display = "block"
+        }) 
+      }else{
+        
+        $(this).toggleClass('active')
+        const Btns = document.querySelectorAll('.select_item.top_items .select_btn')
+        const AllTheActiveItems = document.querySelectorAll('.select_item .select_btn.active')
+        const AllItems = document.querySelectorAll('.MenusAllItems > div') 
+        let activeMenuVals = []
+
+        if (AllTheActiveItems.length > 1) {
+          Btns[0].classList.remove('active')
+        } 
+        
+        AllTheActiveItems.forEach(aTm => {
+          activeMenuVals.push(aTm.dataset.value)
+        }) 
+  
+
+        AllItems.forEach(item => {
+          if (activeMenuVals.length > 0) { 
+            let Availble = false ;
+            activeMenuVals.forEach(mVal => {
+              if (item.dataset.item === mVal) {
+                Availble = true
+              }
+            })
+  
+            if (Availble) { 
+              item.style.display = "block"
+            }else{
+              item.style.display = "none" 
+            }
+          }else{
+            item.style.display = "block"
+            Btns[0].classList.add('active')
+          }
 
  
-  $('.select__blk select').niceSelect();
+          
+        }) 
+
+      }
+
+
+
+
+        
+    })
+  }
+  SelectItem()
+  
+
+
+
+  // Location Modal funcs 
+  function LocationModal() {
+    $('.ui.dropdown').dropdown(); 
+
+    const LocalStorage = localStorage.getItem('locat')
+    if (!LocalStorage) { 
+
+      $('.locationModal').removeClass('d-none') 
+      $('.locationModalBg').removeClass('d-none')
+
+      // Modal 
+      $('.locationModal ul a,.dropdown .menu .item').click( function (e){  
+        localStorage.setItem('locat', `${e.target.dataset.value}`)
+        $('.locationModal').fadeOut(500) 
+        $('.locationModalBg').fadeOut(700)  
+      });  
+    }
+ 
+  }
+  LocationModal()
+ 
+
+
+
+
+
 })(jQuery);

@@ -1,25 +1,26 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<link rel="shortcut icon" type="image/x-icon" href="#">
-        <!-- Place favicon.ico in the root directory -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <meta name="title" content="Buy Food">
+        <meta name="description" content="You can search food from your room">
+        <meta name="keywords" content="food,checken">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="10 days">
+        <meta name="author" content="ravijeyaraman">
+        <!-- Favico Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.webp">
+
+        <title>Home</title> 
+ 
         
 		<!-- CSS here -->
-        <!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <style>
- 
-         </style>
+        <link rel="stylesheet" href="assets/css/all.css"> 
     </head>
     <body>
 
@@ -31,16 +32,16 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="headerTop__left">
-                            <p>chapel hill, NC (984-234-3409)  <span>|</span> <a href="mailto:info@LNLrestaurant.com"><i class="fal fa-envelope"></i> info@LNLrestaurant.com</a></p>
+                            <p>chapel hill, NC (984-234-3409)  <span>|</span> <a href="mailto:info@LNLrestaurant.com" aria-label="our mail"><i class="fal fa-envelope"></i> info@LNLrestaurant.com</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="headerTop__right">
                             <ul>
-                                <li><a href="#"><i class="fas fa-clock"></i> RESERVATIONS</a></li>
-                                <li><a href="#"><i class="fas fa-gift"></i> GIFT CARDS</a></li>
-                                <li><a href=""><img src="assets/img/facebookImg.webp" alt=""></a></li>
-                                <li><a href=""><img src="assets/img/InstagramImg.webp" alt=""></a></li>
+                                <li><a href="#" aria-label="go to reservasion page"><i class="fas fa-clock"></i> RESERVATIONS</a></li>
+                                <li><a href="#" aria-label="go to for gift cards"><i class="fas fa-gift"></i> GIFT CARDS</a></li>
+                                <li><a href="#" aria-label="go into fb"><img src="assets/img/facebookImg.webp" alt=""></a></li>
+                                <li><a href="#" aria-label="go into insta"><img src="assets/img/InstagramImg.webp" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,33 +54,33 @@
                     <div class="menu-area">
                         <nav class="left">
                             <ul id="nav" >
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="menu.html">MENU</a></li> 
-                                <li><a href="bar.html">BAR</a></li> 
-                                <li><a href="CATERING.html">CATERING</a></li>  
+                                <li><a href="index.jsp" aria-label="know-more">Home</a></li>
+                                <li><a href="menu.jsp" aria-label="know-more">MENU</a></li> 
+                                <li><a href="bar.jsp" aria-label="know-more">BAR</a></li> 
+                                <li><a href="CATERING.jsp" aria-label="know-more">CATERING</a></li>  
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div class="col-lg-2 col-6 ">
                     <div class="logo-area">
-                        <a href="index.html"><img src="assets/img/logo.webp" alt=""></a>
+                        <a href="index.jsp" aria-label="know-more"><img src="assets/img/logo.webp" alt="a"></a>
                     </div>
                 </div>
                 <div class="col-lg-5 d-none d-lg-block text-right">
                     <div class="menu-area">
                         <nav class="right">
                             <ul id="nav" class="justify-content-start">
-                                <li><a href="gallery.html">GALLERY</a></li>
-                                <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
-                                <li><a href="#" class="ylwBtn">ORDER</a></li> 
+                                <li><a href="gallery.jsp" aria-label="know-more">GALLERY</a></li>
+                                <li><a href="RESERVE.jsp" class="greenBtn" aria-label="know-more">RESERVE</a></li> 
+                                <li><a href="#" class="ylwBtn" aria-label="know-more">ORDER</a></li> 
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div class="col-6 d-block d-lg-none text-center">
                     <div class="bar">
-                        <a class="bar-icon siteBar-btn" href="#">
+                        <a class="bar-icon siteBar-btn" href="#" aria-label="know-more">
                             <span></span>
                         </a>
                     </div>
@@ -89,34 +90,34 @@
     </div>
         <!-- mobile-menu START -->
         <div class="mobile-menu">
-            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="know-more">
                 <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
                 <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
             </svg></a> 
             <nav> 
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="menu.html">MENU</a></li> 
-                    <li><a href="bar.html">BAR</a></li> 
-                    <li><a href="CATERING.html">CATERING</a></li>   
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
-                    <li><a href="#" class="ylwBtn">ORDER</a></li> 
+                    <li><a href="index.jsp" class="active" aria-label="know-more">Home</a></li>
+                    <li><a href="menu.jsp" aria-label="know-more">MENU</a></li> 
+                    <li><a href="bar.jsp" aria-label="know-more">BAR</a></li> 
+                    <li><a href="CATERING.jsp" aria-label="know-more">CATERING</a></li>   
+                    <li><a href="gallery.jsp" aria-label="know-more">GALLERY</a></li>
+                    <li><a href="RESERVE.jsp" class="greenBtn" aria-label="know-more">RESERVE</a></li> 
+                    <li><a href="#" class="ylwBtn" aria-label="know-more">ORDER</a></li> 
                 </ul>
             </nav> 
 
             <div class="mobile__btm">
                 <div class="headerTop__right">
                     <ul>
-                        <li><a href="#"><i class="fas fa-clock"></i> RESERVATIONS</a></li>
-                        <li><a href="#"><i class="fas fa-gift"></i> GIFT CARDS</a></li>
-                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href="#"><i class="fas fa-clock" aria-label="know-more"></i> RESERVATIONS</a></li>
+                        <li><a href="#"><i class="fas fa-gift" aria-label="know-more"></i> GIFT CARDS</a></li>
+                        <li><a href=""><i class="fab fa-facebook-square" aria-label="know-more"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram-square" aria-label="know-more"></i></a></li>
                     </ul>
                 </div>
                 
                 <div class="headerTop__left">
-                    <p>chapel hill, NC (984-234-3409)  <hr> <a href="mailto:info@LNLrestaurant.com"><i class="fal fa-envelope"></i> info@LNLrestaurant.com</a></p>
+                    <p>chapel hill, NC (984-234-3409)  <hr> <a href="mailto:info@LNLrestaurant.com" aria-label="know-more"><i class="fal fa-envelope"></i> info@LNLrestaurant.com</a></p>
                 </div>
             </div>
         </div> 
@@ -261,42 +262,42 @@
         </section>
         <!--------- Section End ---------->
 
-        <div class="locationModal">
+        <div class="locationModal d-none">
             <h4>Please Select A Location</h4>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#" data-value="ch" aria-label="know-more">
                         <i><img src="assets/img/shortLogo.webp" alt=""></i>
                         <span>chapel hill</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" data-value="dh" aria-label="know-more">
                         <i><img src="assets/img/shortLogo.webp" alt=""></i>
                         <span>durham</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" data-value="jv" aria-label="know-more">
                         <i><img src="assets/img/shortLogo.webp" alt=""></i>
                         <span>jacksonville</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" data-value="ri" aria-label="know-more">
                         <i><img src="assets/img/shortLogo.webp" alt=""></i>
                         <span>raleigh</span>
                     </a>
                 </li>
-            </ul> 
+            </ul>
             <div class="other_locations"> 
                 <label for="shipper_state_state">Also Check Other Locations</label>
                 <div class="ui fluid search selection dropdown">
                     <input type="hidden" name="shipper_state_state">
                     <i class="dropdown icon"></i>
-                    <div class="default text">Select State</div>
+                    <div class="default text">More Location</div>
                     <div class="menu">
-                        <div class="item" data-value="">State</div>
+                        <div class="item" data-value="">More Location</div>
                         <div class="item" data-value="AL">Alabama</div>
                         <div class="item" data-value="AK">Alaska</div>
                         <div class="item" data-value="AZ">Arizona</div>
@@ -304,55 +305,19 @@
                         <div class="item" data-value="CA">California</div>
                         <div class="item" data-value="CO">Colorado</div>
                         <div class="item" data-value="CT">Connecticut</div>
-                        <div class="item" data-value="DE">Delaware</div>
-                        <div class="item" data-value="DC">District Of Columbia</div>
+                        <div class="item" data-value="DE">Delaware</div> 
                         <div class="item" data-value="FL">Florida</div>
                         <div class="item" data-value="GA">Georgia</div>
                         <div class="item" data-value="HI">Hawaii</div>
                         <div class="item" data-value="ID">Idaho</div>
-                        <div class="item" data-value="IL">Illinois</div>
-                        <div class="item" data-value="IN">Indiana</div>
-                        <div class="item" data-value="IA">Iowa</div>
-                        <div class="item" data-value="KS">Kansas</div>
-                        <div class="item" data-value="KY">Kentucky</div>
-                        <div class="item" data-value="LA">Louisiana</div>
-                        <div class="item" data-value="ME">Maine</div>
-                        <div class="item" data-value="MD">Maryland</div>
-                        <div class="item" data-value="MA">Massachusetts</div>
-                        <div class="item" data-value="MI">Michigan</div>
-                        <div class="item" data-value="MN">Minnesota</div>
-                        <div class="item" data-value="MS">Mississippi</div>
-                        <div class="item" data-value="MO">Missouri</div>
-                        <div class="item" data-value="MT">Montana</div>
-                        <div class="item" data-value="NE">Nebraska</div>
-                        <div class="item" data-value="NV">Nevada</div>
-                        <div class="item" data-value="NH">New Hampshire</div>
-                        <div class="item" data-value="NJ">New Jersey</div>
-                        <div class="item" data-value="NM">New Mexico</div>
-                        <div class="item" data-value="NY">New York</div>
-                        <div class="item" data-value="NC">North Carolina</div>
-                        <div class="item" data-value="ND">North Dakota</div>
-                        <div class="item" data-value="OH">Ohio</div>
-                        <div class="item" data-value="OK">Oklahoma</div>
-                        <div class="item" data-value="OR">Oregon</div>
-                        <div class="item" data-value="PA">Pennsylvania</div>
-                        <div class="item" data-value="RI">Rhode Island</div>
-                        <div class="item" data-value="SC">South Carolina</div>
-                        <div class="item" data-value="SD">South Dakota</div>
-                        <div class="item" data-value="TN">Tennessee</div>
-                        <div class="item" data-value="TX">Texas</div>
-                        <div class="item" data-value="UT">Utah</div>
-                        <div class="item" data-value="VT">Vermont</div>
-                        <div class="item" data-value="VA">Virginia</div>
-                        <div class="item" data-value="WA">Washington</div>
-                        <div class="item" data-value="WV">West Virginia</div>
+                        <div class="item" data-value="IL">Illinois</div> 
                         <div class="item" data-value="WI">Wisconsin</div>
                         <div class="item" data-value="WY">Wyoming</div>
                     </div>
                 </div> 
             </div>
         </div>
-        <div class="locationModalBg"></div>
+        <div class="locationModalBg d-none"></div>
 
     </main>
 
@@ -363,7 +328,7 @@
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" >
                         <div class="footer__nav">
                             <h5>CONTACT US  </h5>
-                            <a href="#"><i class="fas fa-map-marker-alt"></i> Chapel Hill</a>
+                            <a href="#" aria-label="know-more"><i class="fas fa-map-marker-alt"></i> Chapel Hill</a>
                             <p>
                                 100 Meadowmont Village Cir #101, <br>
                                 Chapel Hill, NC 27517 <br>
@@ -375,7 +340,7 @@
                     <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100" >
                         <div class="footer__nav">
                             <h5>HOURS</h5>
-                            <a href="#"><i class="fas fa-map-marker-alt"></i> Chapel Hill</a>
+                            <a href="#" aria-label="know-more"><i class="fas fa-map-marker-alt"></i> Chapel Hill</a>
                             <p>
                                 Mon : 11:00AM – 2:00PM & 5:00PM – 9:30PM <br>
                                 Tue : 11:00AM – 2:00PM & 5:00PM – 9:30PM <br>
@@ -390,10 +355,10 @@
                     <div class="col-lg-4" data-aos="fade-right" data-aos-delay="300" >
                         <div class="footer__nav fNav__last">
                             <h5>OUR LOCATIONS  </h5>
-                            <a href="#"> Chapel Hill</a>
-                            <a href="#">  DURHAM</a>
-                            <a href="#">  JACKSONVILLE</a>
-                            <a href="#">  RALEIGH</a>
+                            <a href="#" aria-label="know-more"> Chapel Hill</a>
+                            <a href="#" aria-label="know-more">  DURHAM</a>
+                            <a href="#" aria-label="know-more">  JACKSONVILLE</a>
+                            <a href="#" aria-label="know-more">  RALEIGH</a>
                         </div>
                     </div>
                 </div>
@@ -404,19 +369,14 @@
         </footer>
         <!---------footer Section End ---------->
     
-		<!-- JS here --> 
+		<!-- JS here -->  
         <script src="assets/js/jquery-3.4.1.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- <script src="assets/js/aos.js"></script>  -->
+        <script src="assets/js/bootstrap.min.js"></script> 
         <script src="assets/js/owl.carousel.min.js"></script> 
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script> 
-        <script src="assets/js/main.js"></script>
-        <script>
- $('.ui.dropdown')
-  .dropdown()
-;
-         </script>
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/main.js"></script> 
     </body>
 </html>
 

@@ -1,22 +1,24 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>menu</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<link rel="shortcut icon" type="image/x-icon" href="#">
-        <!-- Place favicon.ico in the root directory -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
+        <meta name="title" content="Buy Food">
+        <meta name="description" content="You can search food from your room">
+        <meta name="keywords" content="food,checken">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="10 days">
+        <meta name="author" content="ravijeyaraman">
+        <!-- Favico Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.webp">
+        
+        <title>menu</title>
 		<!-- CSS here -->
-        <!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/mamun.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/all.css"> 
     </head>
     <body>
 
@@ -50,25 +52,25 @@
                     <div class="menu-area">
                         <nav class="left">
                             <ul id="nav" >
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="menu.html" class="active">MENU</a></li> 
-                                <li><a href="bar.html" >BAR</a></li> 
-                                <li><a href="CATERING.html">CATERING</a></li>  
+                                <li><a href="index.jsp">Home</a></li>
+                                <li><a href="menu.jsp" class="active">MENU</a></li> 
+                                <li><a href="bar.jsp" >BAR</a></li> 
+                                <li><a href="CATERING.jsp">CATERING</a></li>  
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div class="col-lg-2 col-6 ">
                     <div class="logo-area">
-                        <a href="index.html"><img src="assets/img/logo.webp" alt=""></a>
+                        <a href="index.jsp"><img src="assets/img/logo.webp" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-5 d-none d-lg-block text-right">
                     <div class="menu-area">
                         <nav class="right">
                             <ul id="nav" class="justify-content-start">
-                                <li><a href="gallery.html">GALLERY</a></li>
-                                <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
+                                <li><a href="gallery.jsp">GALLERY</a></li>
+                                <li><a href="RESERVE.jsp" class="greenBtn">RESERVE</a></li> 
                                 <li><a href="#" class="ylwBtn">ORDER</a></li> 
                             </ul>
                         </nav>
@@ -92,12 +94,12 @@
             </svg></a> 
             <nav> 
                 <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="menu.html" class="active">MENU</a></li> 
-                    <li><a href="bar.html">BAR</a></li> 
-                    <li><a href="CATERING.html">CATERING</a></li>   
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
+                    <li><a href="index.jsp" >Home</a></li>
+                    <li><a href="menu.jsp" class="active">MENU</a></li> 
+                    <li><a href="bar.jsp">BAR</a></li> 
+                    <li><a href="CATERING.jsp">CATERING</a></li>   
+                    <li><a href="gallery.jsp">GALLERY</a></li>
+                    <li><a href="RESERVE.jsp" class="greenBtn">RESERVE</a></li> 
                     <li><a href="#" class="ylwBtn">ORDER</a></li> 
                 </ul>
             </nav> 
@@ -143,86 +145,86 @@
                 <div class="row mb-5" data-aos="zoom-out" >
                     <div class="col-lg-12">
                         <div class="select_bg">
-                            <div class="select_item">
+                            <div class="select_item top_items">
                                 <div class="select_box">
-                                    <button type="button" class="select_btn active_btn">
+                                    <button type="button" class="select_btn all_btn active" data-value="all">
                                         All Menu
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="a-vegetarian">
                                         <i class="fas fa-check-square"></i>
                                         Appetizer - Vegetarian
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="a-nonveg">
                                         <i class="fas fa-check-square"></i>
                                         Appetizer - Non-Veg
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="e-vegetarian">
                                         <i class="fas fa-check-square"></i>
                                         Entrée - Vegetarian
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="e-egg">
                                         <i class="fas fa-check-square"></i>
                                         Entrée - Egg
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="e-ckn">
                                         <i class="fas fa-check-square"></i>
                                         Entrée - Chicken
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="e-lamb">
                                         <i class="fas fa-check-square"></i>
                                         Entrée - Lamb / Goat
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="e-seafood">
                                         <i class="fas fa-check-square"></i>
                                         Entree - Seafood
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="tandoor">
                                         <i class="fas fa-check-square"></i>
                                         Tandoor Sizzlers
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="si-special">
                                         <i class="fas fa-check-square"></i>
                                         South Indian Special
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="briyani">
                                         <i class="fas fa-check-square"></i>
                                         Briyani / Rice
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="bread">
                                         <i class="fas fa-check-square"></i>
                                         Bread / Naan
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="desserts">
                                         <i class="fas fa-check-square"></i>
                                         Desserts
                                     </button>
                                 </div>
                                 <div class="select_box">
-                                    <button type="button" class="select_btn">
+                                    <button type="button" class="select_btn" data-value="extras">
                                         <i class="fas fa-check-square"></i>
                                         Extras
                                     </button>
@@ -232,49 +234,49 @@
                             <div class="select_bottom_item">
                                 <div class="select_item">
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="dairy">
                                             <i class="fas fa-check-square"></i>
                                             Dairy Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="eggfree">
                                             <i class="fas fa-check-square"></i>
                                             Egg Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="nuts">
                                             <i class="fas fa-check-square"></i>
                                             Nuts Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="soy">
                                             <i class="fas fa-check-square"></i>
                                             Soy Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="sugar">
                                             <i class="fas fa-check-square"></i>
                                             Sugar Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="gluten">
                                             <i class="fas fa-check-square"></i>
                                             Gluten Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="corn">
                                             <i class="fas fa-check-square"></i>
                                             Corn Free
                                         </button >
                                     </div>
                                     <div class="select_box">
-                                        <button type="button" class="select_btn">
+                                        <button type="button" class="select_btn" data-value="trans">
                                             <i class="fas fa-check-square"></i>
                                             Trans Fats Free
                                         </button >
@@ -292,7 +294,7 @@
                     </div>
                 </div>
                 <div class="row MenusAllItems">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Vegetable-Samosa-01.png" alt=""></i>
                             <div class="itemblk__text">
@@ -302,10 +304,10 @@
                                 </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Mix-Vegetable-pakoda.png" alt=""></i>
                             <div class="itemblk__text">
@@ -316,10 +318,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Spinach_Pakoda.png" alt=""></i>
                         <div class="itemblk__text">
@@ -329,10 +331,10 @@
                                 <span>$ 8.99</span>
                             </div>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/GobiManchurian (1).png" alt=""></i>
                             <div class="itemblk__text">
@@ -343,10 +345,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ChilliGarlicMushroom.png" alt=""></i>
                         <div class="itemblk__text">
@@ -357,10 +359,10 @@
                             </div>
                            <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -371,10 +373,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Chilli_Paneer_Tofu.png" alt=""></i>
                         <div class="itemblk__text">
@@ -385,10 +387,10 @@
                             </div>
                             
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="sugar">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Vegetable_Cutlet.png" alt=""></i>
                             <div class="itemblk__text">
@@ -399,10 +401,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="sugar">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Gobi_Pepper_Fry.png" alt=""></i>
                         <div class="itemblk__text">
@@ -413,10 +415,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -427,10 +429,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="sugar">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -441,10 +443,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -455,10 +457,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -469,10 +471,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -484,10 +486,10 @@
                                 <p>Indian style spicy, thinly cut potatoes mixed with corn starch and chef special spice deep fried until crisp.
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Chicken_65_one.png" alt=""></i>
                         <div class="itemblk__text">
@@ -499,10 +501,10 @@
                             <p>Chicken 65 is a popular spicy, delicious South Indian style deep-fried boneless chicken starter.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Chicken_Lollipop.png" alt=""></i>
                             <div class="itemblk__text">
@@ -513,10 +515,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/notImg.webp" alt=""></i>
                         <div class="itemblk__text">
@@ -526,10 +528,10 @@
                                 <span>$ 13.99</span>
                             </div>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ChickenChukka_one.png" alt=""></i>
                             <div class="itemblk__text">
@@ -540,10 +542,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Goat_LambChukka_one.png" alt=""></i>
                         <div class="itemblk__text">
@@ -554,10 +556,10 @@
                             </div>
                             
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -568,10 +570,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Chicken_65_one.png" alt=""></i>
                         <div class="itemblk__text">
@@ -582,10 +584,10 @@
                             <p>Shrimp 65 is a spicy, deep-fried dish that can be eaten as an appetizer or as part of a meal. The shrimp is sprinkled with spices like paprika, kashmiri chili powder, salt and pepper.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/KnockoutChicken.png" alt=""></i>
                             <div class="itemblk__text">
@@ -596,10 +598,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -611,10 +613,10 @@
                             <p>
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -626,10 +628,10 @@
                                 <p>Fish sticks marinated with spices and batter fried with cord flour and bread crumbs
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -640,10 +642,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="gluten">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Channa_Masala.png" alt=""></i>
                             <div class="itemblk__text">
@@ -654,10 +656,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -669,10 +671,10 @@
                             <p>Tofu Matar Masala is a healthier twist to the classic Mattar Paneer. Curried Tofu with peas in a lip-smackingly delicious skinny tomato sauce.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="gluten">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Channa_Masala.png" alt=""></i>
                             <div class="itemblk__text">
@@ -683,10 +685,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="a-nonveg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png
                                 " alt=""></i>
@@ -698,10 +700,10 @@
                             <p>This vegan saag paneer has pan fried tofu cubes that stand in for cheese and are smothered in spicy curried spinach and coconut milk mixture.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/SouthIndianVegKurma.png" alt=""></i>
                             <div class="itemblk__text">
@@ -712,10 +714,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="gluten">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/SouthIndianVegKurma.png" alt=""></i>
                         <div class="itemblk__text">
@@ -727,10 +729,10 @@
                             <p>Saag Paneer is a North Indian vegetable dish with soft, fried paneer cheese and cooked with spinach. It's rich, creamy, and the flavors are complex thanks to the garam masala spice blend made up of cinnamon, mace, peppercorns, coriander seeds, cumin seeds, and cardamon.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -741,10 +743,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="gluten">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -755,10 +757,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="gluten">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -770,10 +772,10 @@
                                 <p>Paneer / Tofu cooked in rich creamy tomato sauce with onion and bell peppers
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -785,10 +787,10 @@
                             <p>Tofu cooked in rich creamy tomato sauce with onion and bell peppers
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/MangoLimePaneer.png" alt=""></i>
                             <div class="itemblk__text">
@@ -800,10 +802,10 @@
                                 <p>Our Chef's secret and special mango sauce blended with a hint of fresh lime cooked with cottage cheese
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -815,10 +817,10 @@
                             <p>Our Chef's secret and special mango sauce blended with a hint of fresh lime cooked with tofu
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/BainganBharta.png
                                 " alt=""></i>
@@ -830,10 +832,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/MalaiKofta.png" alt=""></i>
                         <div class="itemblk__text">
@@ -844,10 +846,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/MalaiKofta.png
                                 " alt=""></i>
@@ -859,10 +861,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TofuVindaloo.png" alt=""></i>
                         <div class="itemblk__text">
@@ -874,10 +876,10 @@
                             <p>The bold and spicy vindaloos of India inspired this Vegan Tofu Vindaloo. It is spicy, tangy, sweet and chock full of vegetables.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/EggplantPulusu.png" alt=""></i>
                             <div class="itemblk__text">
@@ -888,10 +890,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/EggCurry.png" alt=""></i>
                         <div class="itemblk__text">
@@ -903,10 +905,10 @@
                             <p>Boiled eggs cooked in onion and tomato gravy and spices
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -918,10 +920,10 @@
                                 <p>Boiled eggs sauteed with cut bell peppers, tomatoes, onions in traditional wok / kadai
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -933,10 +935,10 @@
                             <p>Boneless chicken tikka cooked in rich creamy tomato sauce with onion and bell peppers
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/notImg.webp" alt=""></i>
                             <div class="itemblk__text">
@@ -948,10 +950,10 @@
                                 <p>Chicken and potato cooked in tomato based tangy sauce
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ChickenSaag.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -963,10 +965,10 @@
                             <p>Chicken and fresh spinach cooked in special spices and cream
                                 into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ChickenMalaiKorma.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -978,10 +980,10 @@
                                 <p>Chicken and fresh spinach cooked in special spices and cream
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ButterChicken.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -993,10 +995,10 @@
                             <p>Boneless chicken thigh pieces cooked in rich creamy tomato sauce spices
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1008,10 +1010,10 @@
                                 <p>Boneless chicken breast cooked in South Indian style with a hint of coconut
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1023,10 +1025,10 @@
                             <p>Boneless chicken breast cooked in South Indian style with a hint of coconut
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1038,10 +1040,10 @@
                                 <p>Boneless chicken simmered in special sauce tossed with onions, bell peppers and tomatoes cooked in clay
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-vegetarian">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/MangoLimeChicken.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1053,10 +1055,10 @@
                             <p>Boneless chicken cooked with fresh Mango flavor with a hint of lime.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1068,10 +1070,10 @@
                                 <p>Spicy and slightly sour tasting curry made with chicken, gongura, onions, chilies, spices and herbs.
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1083,10 +1085,10 @@
                             <p>Spicy, hot and aromatic dish, which is flavored with aromatic and distinctive spices.
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambGoatTikkaMasala.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1098,10 +1100,10 @@
                                 <p>Choice of lamb cooked in rich creamy tomato sauce with onion and bell peppers
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambGoatVindaloo.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1113,10 +1115,10 @@
                             <p>Choice of lamb or goat and potato cooked in tomato based tangy sauce
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambGoatSaag.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1128,10 +1130,10 @@
                                 <p>Choice of lamb or goat and fresh spinach cooked in special spices and cream
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1143,10 +1145,10 @@
                             <p>Choice of lamb or goat braised in blend of nuts and creamy sauce - Mughali delicacy
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambGoatRoganJosh.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1158,10 +1160,10 @@
                                 <p>Choice of lamb or goat braised in blend of nuts and creamy sauce - Mughali delicacy
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambGoatRoganJosh.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1173,10 +1175,10 @@
                             <p>Chef's special - goat cubes cooked with aromatic spices and coconut from the land of Chettinad
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-egg">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1188,10 +1190,10 @@
                                 <p>Tilapia fish cooked in aromatic spices and coconut gravy - flavor of Kerala
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/SalmonTikkaMasala.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1203,10 +1205,10 @@
                             <p>Char-grilled Salmon fish cooked in rich creamy tomato sauce with onion and bell peppers
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ShrimpCurry.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1218,10 +1220,10 @@
                                 <p>Shrimp cooked with traditional southern style Chennai spices
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriPaneerTikka.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1233,10 +1235,10 @@
                             <p>Cottage cheese marinated in yogurt and tandoori spices smoked in clay oven
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriChickenTikka.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1248,10 +1250,10 @@
                                 <p>Chicken tender marinated in tandoori spices roasted in clay oven
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriChicken.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1263,10 +1265,10 @@
                             <p>Chicken leg quarter marinated in special tandoori spices
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/HariyaliMurgKebabOne.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1277,10 +1279,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/LambChops.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1291,10 +1293,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriSalmonOne.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1306,10 +1308,10 @@
                                 <p>Tandoori Salmon is an Indian dish with bite-sized chunks of salmon marinated in a spicy marinade and then cooked to perfection on a tandoor.
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriShrimp.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1320,10 +1322,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-ckn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandoorMixedGrillPlatter.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1334,10 +1336,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/TandooriMachhaleeGrilledFish.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1348,10 +1350,10 @@
                             </div>
                             <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1363,10 +1365,10 @@
                                 <p>Deep fried wings are crispy, spicy, sweet and dripping with an option of homemade Nashville hot sauce / curry sauce / chef's special sauce. 6 pcs / $12.99 12 pcs / $18.99
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1378,10 +1380,10 @@
                             <p>Chicken wings marinated with house special lemon pepper sauce. 6 pcs / $12.99 12 pcs / $18.99
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="corn">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1395,10 +1397,10 @@
 
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1409,10 +1411,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/PlainDosa.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1423,10 +1425,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/EggDosa.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1437,10 +1439,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1451,10 +1453,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="trans">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1465,10 +1467,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1479,10 +1481,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="trans">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1493,10 +1495,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/AvocadoDosa.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1507,10 +1509,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/OnionUttapam.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1521,10 +1523,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1535,10 +1537,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="trans">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1549,10 +1551,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1563,10 +1565,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1577,10 +1579,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="trans">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ParotaChickenKurma.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1591,10 +1593,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-lamb">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1605,10 +1607,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/ParotaVegKurma.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1619,10 +1621,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="soy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1633,10 +1635,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="soy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/HyderabadGoatDumBiryaniOne.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1647,10 +1649,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1661,10 +1663,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="soy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1675,10 +1677,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1689,10 +1691,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="soy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1704,10 +1706,10 @@
                                 <p>Rice made with aromatic spices, herbs and mixed vegetables cooked in dum style
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1719,10 +1721,10 @@
                             <p>Rice made with stir-fried rice and eggs with soy sauce and green onions
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1734,10 +1736,10 @@
                                 <p>Rice made with stir-fried rice, tender chicken and a variety of vegetables and spices.
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1749,10 +1751,10 @@
                             <p>Rice made with fluffy stir-fried rice featuring succulent shrimp and tender vegetables
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="e-seafood">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1763,10 +1765,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1778,10 +1780,10 @@
                             <p>Stir-fried egg noodles with veggies and a savory sauce
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1793,10 +1795,10 @@
                                 <p>Stir-fried hakka noodles with succulent shrimp
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1808,10 +1810,10 @@
                             <p>Fluffy Indian bread made the traditional way in a tandoor oven
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1822,10 +1824,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="dairy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1837,10 +1839,10 @@
                             <p>Plain Naan, brushed with butter
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1852,10 +1854,10 @@
                                 <p>
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1866,10 +1868,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="dairy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1881,10 +1883,10 @@
                                 <p>Fresh mint and basil infused in soft bread
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/KashmiriNaanOne.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -1896,10 +1898,10 @@
                             <p>Sweet naan stuffed with nuts, raisins and cherry
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="dairy">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1910,10 +1912,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1924,10 +1926,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1938,10 +1940,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="tandoor">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1952,10 +1954,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="si-special">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Parota2pcs.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -1966,10 +1968,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="si-special">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -1980,10 +1982,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="si-special">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -1995,10 +1997,10 @@
                                 <p>Soft leavened bread stuffed with boiled, mashed potatoes and spices
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="si-special">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/GulabJamunOne.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -2009,10 +2011,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="briyani">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2023,10 +2025,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="briyani">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2037,10 +2039,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="briyani">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2051,10 +2053,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="briyani">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/KulfiStrawberryOne.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -2065,10 +2067,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="bread">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2079,10 +2081,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="bread">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2093,10 +2095,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="bread">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2107,10 +2109,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="eggfree">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2122,10 +2124,10 @@
                             <p>Creamy frozen dessert made with fresh mango puree and milk
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="eggfree">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2137,10 +2139,10 @@
                                 <p>Chocolate chunk brownie served on a sizzling plate with vanilla ice cream with kettle-cooked choco syrup.
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="eggfree">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2152,10 +2154,10 @@
                             <p>Homemade ice cream served in Orange wedge
                             </p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="nuts">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2167,10 +2169,10 @@
                                 <p>Homemade ice cream served in Orange wedge
                                 </p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="extras">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2181,10 +2183,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="extras">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Rice.jpg" alt=""></i>
                             <div class="itemblk__text">
@@ -2195,10 +2197,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="extras">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/Raitha.jpg" alt=""></i>
                         <div class="itemblk__text">
@@ -2209,10 +2211,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="extras">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2223,10 +2225,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="desserts">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2237,10 +2239,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="nuts">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2251,10 +2253,10 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="desserts">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                         <div class="itemblk__text">
@@ -2265,10 +2267,10 @@
                             </div>
                             <p></p>
                         </div>
-                        <button class="Details_btn">Details</button>
+                        <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
                     </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-item="desserts">
                         <div class="item__blk">
                             <i><img src="assets/img/menu_html-img/notImg.png" alt=""></i>
                             <div class="itemblk__text">
@@ -2279,15 +2281,126 @@
                                 </div>
                                 <p></p>
                             </div>
-                            <button class="Details_btn">Details</button>
+                            <button class="Details_btn" >Details</button>
                         </div>
                     </div>
-                    
-
                 </div>
             </div>
         </section>
         <!--------- Section End ---------->
+
+
+
+<!-------model START--------> 
+    <div class="modal fade" id="itemModal">
+        <div class="modal-dialog modal_bg modal-dialog-centered ">
+            <div class="modal-content">
+                    <div class="modal_content">
+                        <div class="top_content">
+                            <div class="left_item">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">                     
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <i> <img src="assets/img/Vegetable-Samosa-01.png" class="d-block w-100" alt="..."></i>
+                                    </div>
+                                    <div class="carousel-item">
+                                    <i> <img src="assets/img/Vegetable-Samosa-02.png" class="d-block w-100" alt="..."></i>
+                                    </div>
+                                    </div>
+                                    <div class="carousel-indicators">
+                                        <button class="indicators_Btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button class="indicators_Btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="right_item">
+                                <div class="itemblk__text">
+                                    <div class="itemblk__title">
+                                        <h2>Vegetable Samosa (2 pcs)</h2>
+                                        <span>$ 6.99</span>
+                                    </div>
+                                    <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="bottom_content">
+                            <div class="title_text">
+                                <h3>INGREDIENTS:
+                                </h3>
+                                <div class="food_item_name d-flex align-items-center gap-2">
+                                    <p>Potatoes</p>
+                                    <p>Peas,</p>
+                                <p>Ginger root,</p>
+                                    <p>Coriander,</p>
+                                    <p>Turmeric</p>
+                                    <p>Chili powder,</p>
+                                    <p>... and other spices</p>
+                                </div>
+                                <div class="NUTRITION_VALUE">
+                                    <h3 class="mb-3 d-block">NUTRITION VALUE:
+                                    </h3>
+                                    <div class="Vitamin_A">
+                                        <p class="vitamin">Vitamin A<span>:</span></p>
+                                        <div class="VALUE  VALUE_1"></div>
+                                    </div>
+                                    <div class="Vitamin_C">
+                                    <p class="vitamin">Vitamin C <span>:</span></p>
+                                    <span class="VALUE  VALUE_2"></span>
+                                    </div>
+                                    <div class="Calcium">
+                                        <p class="vitamin">Calcium<samp>:</samp></p>
+                                        <div class="VALUE  VALUE_3"></div>
+                                    </div>
+                                    <div class="Iron">
+                                        <p class="vitamin">Iron<span>:</span></p>
+                                        <div class="VALUE VALUE_4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3>FOOD ALLERGENS</h3>
+                                <div class="FOOD_ALLERGENS">
+                                    <div class="footer_text">
+                                        <img src="assets/img/daryFree.png" alt="">
+                                        <h3>Dairy Free
+                                        </h3>
+                                    </div>
+                                    <div class="footer_text">
+                                        <img src="assets/img/daryFree.png" alt="">
+                                        <h3>Egg Free
+                                        </h3>
+                                    </div>
+                                    <div class="footer_text">
+                                        <img src="assets/img/nutsFree.png" alt="">
+                                        <h3>Nuts Free
+                                        </h3>
+                                    </div>
+                                    <div class="footer_text">
+                                        <img src="assets/img/soyFree.png" alt="">
+                                        <h3>Soy Free
+                                        </h3>
+                                    </div>
+                                    <div class="footer_text">
+                                        <img src="assets/img/sugarFree.png" alt="">
+                                        <h3>Sugar Free
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+      <button type="button" class="close_Btn" data-bs-dismiss="modal" aria-label="Close"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512" class="text-customWhite" height="30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></button>
+    </div>
+ <!---------Modal END ---------->
+
+
+
+
+
+
 
     </main>
 
@@ -2339,18 +2452,14 @@
         </footer>
         <!---------footer Section End ---------->
 
-    <!-- JS here --> 
+
+
+    <!-- JS here -->  
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- <script src="assets/js/aos.js"></script>  -->
+    <script src="assets/js/bootstrap.min.js"></script> 
     <script src="assets/js/owl.carousel.min.js"></script> 
-    <script src="assets/js/main.js"></script>
-
-    <script>
-        $('.select_box button').click(function() {
-            $(this).toggleClass('active')
-        })
-    </script>
+    <script src="assets/js/jquery.nice-select.min.js"></script> 
+    <script src="assets/js/main.js"></script> 
 </body>
 </html>

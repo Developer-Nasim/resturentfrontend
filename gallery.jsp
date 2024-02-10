@@ -1,22 +1,24 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>gallery</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<link rel="shortcut icon" type="image/x-icon" href="#">
-        <!-- Place favicon.ico in the root directory -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
+        <meta name="title" content="Buy Food">
+        <meta name="description" content="You can search food from your room">
+        <meta name="keywords" content="food,checken">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="10 days">
+        <meta name="author" content="ravijeyaraman">
+        <!-- Favico Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.webp">
+        
+        <title>gallery</title>
 		<!-- CSS here -->
-        <!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/nice-select.css"> 
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/all.css"> 
     </head>
     <body>
 
@@ -50,25 +52,25 @@
                     <div class="menu-area">
                         <nav class="left">
                             <ul id="nav" >
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="menu.html">MENU</a></li> 
-                                <li><a href="bar.html">BAR</a></li> 
-                                <li><a href="CATERING.html">CATERING</a></li>  
+                                <li><a href="index.jsp">Home</a></li>
+                                <li><a href="menu.jsp">MENU</a></li> 
+                                <li><a href="bar.jsp">BAR</a></li> 
+                                <li><a href="CATERING.jsp">CATERING</a></li>  
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div class="col-lg-2 col-6 ">
                     <div class="logo-area">
-                        <a href="index.html"><img src="assets/img/logo.webp" alt=""></a>
+                        <a href="index.jsp"><img src="assets/img/logo.webp" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-5 d-none d-lg-block text-right">
                     <div class="menu-area">
                         <nav class="right">
                             <ul id="nav" class="justify-content-start">
-                                <li><a href="gallery.html"  class="active">GALLERY</a></li>
-                                <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
+                                <li><a href="gallery.jsp"  class="active">GALLERY</a></li>
+                                <li><a href="RESERVE.jsp" class="greenBtn">RESERVE</a></li> 
                                 <li><a href="#" class="ylwBtn">ORDER</a></li> 
                             </ul>
                         </nav>
@@ -92,12 +94,12 @@
             </svg></a> 
             <nav> 
                 <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="menu.html">MENU</a></li> 
-                    <li><a href="bar.html">BAR</a></li> 
-                    <li><a href="CATERING.html" >CATERING</a></li>   
-                    <li><a href="gallery.html" class="active">GALLERY</a></li>
-                    <li><a href="RESERVE.html" class="greenBtn">RESERVE</a></li> 
+                    <li><a href="index.jsp" >Home</a></li>
+                    <li><a href="menu.jsp">MENU</a></li> 
+                    <li><a href="bar.jsp">BAR</a></li> 
+                    <li><a href="CATERING.jsp" >CATERING</a></li>   
+                    <li><a href="gallery.jsp" class="active">GALLERY</a></li>
+                    <li><a href="RESERVE.jsp" class="greenBtn">RESERVE</a></li> 
                     <li><a href="#" class="ylwBtn">ORDER</a></li> 
                 </ul>
             </nav> 
@@ -208,8 +210,7 @@
     <!-- JS here --> 
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- <script src="assets/js/aos.js"></script>  -->
+    <script src="assets/js/bootstrap.min.js"></script> 
     <script src="assets/js/owl.carousel.min.js"></script> 
     <script src="assets/js/jquery.nice-select.min.js"></script> 
     <script src="assets/js/main.js"></script>
