@@ -54,7 +54,7 @@
                     <div class="menu-area">
                         <nav class="left">
                             <ul id="nav" >
-                                <li><a href="index.jsp" aria-label="know-more">Home</a></li>
+                                <li><a href="index.jsp" aria-label="know-more" class="active">Home</a></li>
                                 <li><a href="menu.jsp" aria-label="know-more">MENU</a></li> 
                                 <li><a href="bar.jsp" aria-label="know-more">BAR</a></li> 
                                 <li><a href="CATERING.jsp" aria-label="know-more">CATERING</a></li>  
@@ -374,7 +374,7 @@
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script> 
         <script src="assets/js/owl.carousel.min.js"></script> 
-        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script> 
+        <script src="assets/js/semantic.min.js"></script>  
         <script src="assets/js/jquery.nice-select.min.js"></script> 
         <script src="assets/js/main.js"></script> 
     </body>

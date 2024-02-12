@@ -150,49 +150,49 @@
                 <div class="select_bg">
                     <div class="select_item">
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="dbeer">
                                 <i class="fas fa-check-square"></i>
                                 Draft Beer
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="bbeer">
                                <i class="fas fa-check-square"></i>
                                Bottled Beer
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="ibeer">
                                 <i class="fas fa-check-square"></i>
                                 Indian Beer
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="rwine">
                                 <i class="fas fa-check-square"></i>
                                 Red Wine
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="wwine">
                                 <i class="fas fa-check-square"></i>
                                 White Wine
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="liquor">
                                 <i class="fas fa-check-square"></i>
                                 Liquor
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="cocktails">
                                 <i class="fas fa-check-square"></i>
                                 Cocktails
                             </button>
                         </div>
                         <div class="select_box">
-                            <button type="button" class="select_btn">
+                            <button type="button" class="select_btn" data-value="lcocktails">
                                 <i class="fas fa-check-square"></i>
                                 L&L Cocktails
                             </button>
@@ -202,286 +202,331 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12 capitalize text-center mb-2">
+            <div class="col-lg-12 capitalize text-center mb-3">
                 <div class="item-title">
-                    <h6>11 Bars Found</h6>
+                    <h6><span></span> Bars Found</h6>
                 </div>
             </div>
         </div>
-        <div class="row MenusAllItems">
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/Allagash_White.jpg" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2> Allagash White</h2>
-                         <span>$ 6.49</span>
-                     </div>
-                     <p>If you've only had one beer from Allagash, chances are it was this one. When it comes to Belgian-style Witbier, it's hard to beat this multi medal winner. Creamy, fruity and spicy, it's a perfectly balanced white ale that leaves you reaching for another.</p>
+        <div class="row">
+            <div class="col-lg-12"> 
+                <div class="menuItem__wrp">
+                    <div class="menuItem__blk" data-item="bbeer" data-bs-toggle="modal" data-bs-target="#itemModal">
+                        <i>
+                            <img src="assets/img/menus/item-1.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Vegetable Samosa</h6>
+                            <div class="cl__content">
+                                <span>Vegan</span>
+                                <span class="red">Vegan</span>
+                                <span class="yellow">Vegan</span> 
+                            </div>
+                            <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are then deep-fried to golden perfection.</p>
+                            <div class="menuItem__btm">
+                                <span>2pcs</span>
+                                <div class="price">
+                                    <b>$ 6.99</b> <i class="arrow"><img src="assets/img/menus/arrow.svg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="dbeer" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-2.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Gobi Manchurian</h6>
+                            <p>Cauliflower
+                                Spring onion
+                                Bell Peppers
+                                Soy sauce
+                                Chilli Sauce
+                                Garlic
+                                Pepper</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 10.99</b> <del>
+                                        $ 12.99
+                                    </del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="bbeer" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-3.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Chilli Garlic Mushroom</h6>
+                            <p>Mushrooms
+                                Manchurian sauce
+                                Coriander leaves
+                                Chili powder
+                                Garlic
+                                Black pepper
+                                Onions
+                                ... other herbs and spices</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 12.99</b> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="dbeer" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-4.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Mix Vegetable Pakoda</h6>
+                            <p>Deep fried potatoes
+                                Cauliflower
+                                Onions
+                                Chilies
+                                Besan and other spices</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 8.99</b> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="ibeer" data-bs-toggle="modal" data-bs-target="#itemModal">
+                        <i>
+                            <img src="assets/img/menus/item-1.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Vegetable Samosa</h6>
+                            <div class="cl__content">
+                                <span>Vegan</span>
+                                <span class="red">Vegan</span>
+                                <span class="yellow">Vegan</span> 
+                            </div>
+                            <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are then deep-fried to golden perfection.</p>
+                            <div class="menuItem__btm">
+                                <span>2pcs</span>
+                                <div class="price">
+                                    <b>$ 6.99</b> <i class="arrow"><img src="assets/img/menus/arrow.svg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="rwine" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-2.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Gobi Manchurian</h6>
+                            <p>Cauliflower
+                                Spring onion
+                                Bell Peppers
+                                Soy sauce
+                                Chilli Sauce
+                                Garlic
+                                Pepper</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 10.99</b> <del>
+                                        $ 12.99
+                                    </del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="wwine" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-3.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Chilli Garlic Mushroom</h6>
+                            <p>Mushrooms
+                                Manchurian sauce
+                                Coriander leaves
+                                Chili powder
+                                Garlic
+                                Black pepper
+                                Onions
+                                ... other herbs and spices</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 12.99</b> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="liquor" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-4.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Mix Vegetable Pakoda</h6>
+                            <p>Deep fried potatoes
+                                Cauliflower
+                                Onions
+                                Chilies
+                                Besan and other spices</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 8.99</b> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="cocktails" data-bs-toggle="modal" data-bs-target="#itemModal">
+                        <i>
+                            <img src="assets/img/menus/item-1.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Vegetable Samosa</h6>
+                            <div class="cl__content">
+                                <span>Vegan</span>
+                                <span class="red">Vegan</span>
+                                <span class="yellow">Vegan</span> 
+                            </div>
+                            <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are then deep-fried to golden perfection.</p>
+                            <div class="menuItem__btm">
+                                <span>2pcs</span>
+                                <div class="price">
+                                    <b>$ 6.99</b> <i class="arrow"><img src="assets/img/menus/arrow.svg" alt=""></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="rwine" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-2.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Gobi Manchurian</h6>
+                            <p>Cauliflower
+                                Spring onion
+                                Bell Peppers
+                                Soy sauce
+                                Chilli Sauce
+                                Garlic
+                                Pepper</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 10.99</b> <del>
+                                        $ 12.99
+                                    </del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem__blk" data-item="lcocktails" data-bs-toggle="modal" data-bs-target="#itemModal2">
+                        <i>
+                            <img src="assets/img/menus/item-3.jpg" alt="">
+                        </i>
+                        <div class="menuItem__content">
+                            <h6>Chilli Garlic Mushroom</h6>
+                            <p>Mushrooms
+                                Manchurian sauce
+                                Coriander leaves
+                                Chili powder
+                                Garlic
+                                Black pepper
+                                Onions
+                                ... other herbs and spices</p>
+                            <div class="menuItem__btm">
+                                <div class="price">
+                                    <b>$ 12.99</b> 
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <button class="Details_btn"  data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
             </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/Kingfisher_Lager.png" alt=""></i>
-                    <div class="itemblk__text">
-                         <div class="itemblk__title">
-                             <h2>Kingfisher Lager</h2>
-                             <span>$ 5.49</span>
-                         </div>
-                         <p>India and New York- American All-Malt Lager- Kingfisher is brewed to the highest standards from the finest quality malted barley and hops. Kingfisher's award winning flavor and consistent excellence of quality has made Kingfisher the best selling Indian Lager in the world today.</p>
-                     </div>
-                     <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/BellsTwoHeartedIPA.jpg" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2> Bells Two Hearted IPA
-                        </h2>
-                         <span>$ 6.49</span>
-                     </div>
-                     <p>Brewed with 100% Centennial hops from the Pacific Northwest and named after the Two Hearted River in Michiganâs Upper Peninsula, this IPA is bursting with hop aromas ranging from pine to grapefruit from massive hop additions in both the kettle and the fermenter.
-                    </p>
-                </div>
-                <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/BluemoonBelgianWhite.png" alt=""></i>
-                    <div class="itemblk__text">
-                         <div class="itemblk__title">
-                             <h2>Bluemoon - Belgian White
-                            </h2>
-                             <span>$ 5.49</span>
-                         </div>
-                         <p>A wheat beer brewed with Valencia orange peel for a subtle sweetness and bright, citrus aroma.
-                        </p>
-                     </div>
-                     <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/CoronaPremier.jpg" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2> Corona Premier
-                        </h2>
-                         <span>$ 6.49</span>
-                     </div>
-                     <p>Corona Premier Mexican Lager Beer is a perfectly balanced, smooth, and drinkable light beer with a touch of sweetness and a clean, crisp finish.
-
-                    </p>
-                </div>
-                <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/notImg.png" alt=""></i>
-                    <div class="itemblk__text">
-                         <div class="itemblk__title">
-                             <h2>Hoppyum Foothills IPA
-                            </h2>
-                             <span>$ 5.49</span>
-                         </div>
-                         <p>This American style IPA (India Pale Ale) is highly hopped with Simcoe, Cascade, and Centennial hops Made with English pale and light caramalts, Hoppyum is an orange color, with a citrusy Simcoe taste and aroma.
-                        </p>
-                     </div>
-                     <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/ModeloEspecial.jpg" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2>Modelo Especial
-                        </h2>
-                         <span>$ 5.49</span>
-                     </div>
-                     <p>Well-balanced taste and light hop character with a crisp, clean finish. Modelo Especial is characterized by an orange blossom honey aroma with a hint of herb.
-                    </p>
-                </div>
-                <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/SierraHazyLittleThing_HazyIPA.jpg" alt=""></i>
-                    <div class="itemblk__text">
-                         <div class="itemblk__title">
-                             <h2>Sierra Hazy Little Thing - Hazy IPA
-                            </h2>
-                             <span>$ 5.49</span>
-                         </div>
-                         <p>Sierra Nevada's take on the hazy IPA pours a cloudy golden orange and has tropical fruit aromas - mango, pineapple, and ripe citrus - that carry onto the palate with impressive sessionability.
-                        </p>
-                     </div>
-                     <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/notImg.png" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2> Foothills Torch Pilsner
-                        </h2>
-                         <span>$ 6.49</span>
-                     </div>
-                     <p></p>
-                </div>
-                <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/Yuengling.jpg" alt=""></i>
-                    <div class="itemblk__text">
-                         <div class="itemblk__title">
-                             <h2>Yuengling
-                                /h2>
-                             <span>$ 5.49</span>
-                         </div>
-                         <p></p>
-                     </div>
-                     <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="item__blk">
-                    <i><img src="assets/img/bar_html-img/notImg.png" alt=""></i>
-                <div class="itemblk__text">
-                     <div class="itemblk__title">
-                         <h2>KingFisher (12 0z)
-                        </h2>
-                         <span>$ 4.49</span>
-                     </div>
-                     <p></p>
-                </div>
-                <button class="Details_btn" data-bs-toggle="modal" data-bs-target="#itemModal">Details</button>
-            </div>
-            
-            
-        </div>
+        </div> 
+     
     </div>
 </section>
 <!--------- Section End ---------->
 
 
-<!-------model START--------> 
 
-
-<div class="modal fade" id="itemModal">
-    <div class="modal-dialog modal_bg modal-dialog-centered ">
-        <div class="modal-content">
-                <div class="modal_content">
-                    <div class="top_content">
-                        <div class="left_item">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">                     
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                   <i> <img src="assets/img/Vegetable-Samosa-01.png" class="d-block w-100" alt="..."></i>
-                                  </div>
-                                  <div class="carousel-item">
-                                   <i> <img src="assets/img/Vegetable-Samosa-02.png" class="d-block w-100" alt="..."></i>
-                                  </div>
+        <!-------model START--------> 
+        <div class="modal fade" id="itemModal">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="moda-body">
+                        <div id="itemModal_content" data-modal-targeted="the_modal">
+                            <div class="item_modal_content">
+                    
+                                <div class="menuItem__blk v2"  >
+                                    <i>
+                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12"></path>
+                                            </svg>
+                                        </button>
+                                        <img src="assets/img/menus/item-1.jpg" alt="">
+                                    </i>
+                                    <div class="menuItem__content">
+                                        <h6>Vegetable Samosa</h6>
+                                        <div class="cl__content">
+                                            <span>Vegan</span>
+                                            <span class="red">Vegan</span>
+                                            <span class="yellow">Vegan</span> 
+                                        </div>
+                                        <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are then deep-fried to golden perfection.</p>
+                                        <div class="menuItem__btm">
+                                            <span>2pcs</span>
+                                            <div class="price">
+                                                <b>$ 6.99</b> 
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="menuItem__btm">
+                                            <span>4pcs</span>
+                                            <div class="price">
+                                                <b>$ 12.99</b> 
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="carousel-indicators">
-                                    <button class="indicators_Btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button class="indicators_Btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="right_item">
-                            <div class="itemblk__text">
-                                <div class="itemblk__title">
-                                    <h2>Vegetable Samosa (2 pcs)</h2>
-                                    <span>$ 6.99</span>
-                                </div>
-                                <p>Samosa is an amazing and mouthwatering Indian appetizer made with a spiced potatoes filling. It's a popular street food in India. The filling is wrapped using Samosa wrappers into triangle cone shapes. They are</p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="bottom_content">
-                        <div class="title_text">
-                            <h3>INGREDIENTS:
-                            </h3>
-                            <div class="food_item_name d-flex align-items-center gap-2">
-                                <p>Potatoes</p>
-                                <p>Peas,</p>
-                               <p>Ginger root,</p>
-                                <p>Coriander,</p>
-                                <p>Turmeric</p>
-                                <p>Chili powder,</p>
-                                <p>... and other spices</p>
-                            </div>
-                            <div class="NUTRITION_VALUE">
-                                <h3 class="mb-3 d-block">NUTRITION VALUE:
-                                </h3>
-                                <div class="Vitamin_A">
-                                    <p class="vitamin">Vitamin A<span>:</span></p>
-                                    <div class="VALUE  VALUE_1"></div>
-                                </div>
-                                <div class="Vitamin_C">
-                                <p class="vitamin">Vitamin C <span>:</span></p>
-                                <span class="VALUE  VALUE_2"></span>
-                                </div>
-                                <div class="Calcium">
-                                    <p class="vitamin">Calcium<samp>:</samp></p>
-                                    <div class="VALUE  VALUE_3"></div>
-                                </div>
-                                <div class="Iron">
-                                    <p class="vitamin">Iron<span>:</span></p>
-                                    <div class="VALUE VALUE_4"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>FOOD ALLERGENS</h3>
-                            <div class="FOOD_ALLERGENS">
-                                <div class="footer_text">
-                                    <img src="assets/img/daryFree.png" alt="">
-                                    <h3>Dairy Free
-                                    </h3>
-                                </div>
-                                <div class="footer_text">
-                                    <img src="assets/img/daryFree.png" alt="">
-                                    <h3>Egg Free
-                                    </h3>
-                                </div>
-                                <div class="footer_text">
-                                    <img src="assets/img/nutsFree.png" alt="">
-                                    <h3>Nuts Free
-                                    </h3>
-                                </div>
-                                <div class="footer_text">
-                                    <img src="assets/img/soyFree.png" alt="">
-                                    <h3>Soy Free
-                                    </h3>
-                                </div>
-                                <div class="footer_text">
-                                    <img src="assets/img/sugarFree.png" alt="">
-                                    <h3>Sugar Free
-                                    </h3>
-                                </div>
+                    
                             </div>
                         </div>
                     </div>
                 </div>
+            </div> 
         </div>
-    </div>
-      <button type="button" class="close_Btn" data-bs-dismiss="modal" aria-label="Close"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512" class="text-customWhite" height="30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></button>
-    </div>
- <!---------Modal END ---------->
-
+        <div class="modal fade" id="itemModal2">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="moda-body">
+                        <div id="itemModal_content" data-modal-targeted="the_modal">
+                            <div class="item_modal_content">
+                    
+                                <div class="menuItem__blk">
+                                    <i>
+                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12"></path>
+                                            </svg>
+                                        </button>
+                                        <img src="assets/img/menus/item-2.jpg" alt="">
+                                    </i>
+                                    <div class="menuItem__content">
+                                        <h6>Vegetable Samosa</h6>
+                                        <p>Cauliflower Spring onion Bell Peppers Soy sauce Chilli Sauce Garlic Pepper</p>
+                                        <div class="menuItem__btm">
+                                            <div class="price">
+                                                <b>$ 10.99</b> <del>$ 12.99</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!---------Modal END ---------->
 
 
 
@@ -536,15 +581,15 @@
         </footer>
         <!---------footer Section End ---------->
 
-    <!-- JS here -->  
+
+        
+    <!-- JS here -->   
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script> 
     <script src="assets/js/owl.carousel.min.js"></script> 
+    <script src="assets/js/semantic.min.js"></script>  
     <script src="assets/js/jquery.nice-select.min.js"></script> 
-    <script src="assets/js/main.js"></script>
-
- 
-
+    <script src="assets/js/main.js"></script> 
 </body>
 </html>

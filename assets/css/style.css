@@ -1080,6 +1080,7 @@ body::-webkit-scrollbar-thumb {
 
 .Menus-area {
   background: #222222;
+  background-size: cover;
 }
 
 .select_bg .hr_border {
@@ -1159,22 +1160,8 @@ body::-webkit-scrollbar-thumb {
 
 
 /*<<========= modal CSS START =============>>*/
-.modal {
-  background: #000;
-}
-.modal_bg {
-  margin: auto;
-  margin-top: 20px;
-  max-width: 1280px;
-  background: 0;
-  border: 1px solid hsla(0,0%,100%,.2);
-  border-radius: 0.25rem;
-  padding: 10px 10px 10px 10px;
-  align-items: baseline;
-  height: calc(100vh - 3rem );
-  overflow: auto;
-  margin-bottom: 20px;
-}
+ 
+ 
 .modal-content {
  background: 0;
 }
