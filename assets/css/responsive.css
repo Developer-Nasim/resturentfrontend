@@ -105,6 +105,12 @@
 .modal_content .top_content .right_item {
      width: 100%;
 }
+.all_the_item_imgs > a { 
+    height: 150px; 
+}
+
+
+
 
 }
 
@@ -406,6 +412,15 @@ font-size: 30px;
     .modal_content .FOOD_ALLERGENS {
         gap: 16px;
     }
+    .all_the_item_imgs > a { 
+        max-width: 49%;
+        height: 150px; 
+        margin-bottom: 1%;
+    }
+
+
+
+
 }
 /*<<========= modal CSS END =============>>*/
 

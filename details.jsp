@@ -125,12 +125,12 @@
     <main>
 
         <!---------banner Section START ---------->
-        <section class="banner_area "  style="background-image: url(./assets/img/CATERING-bg.webp);">
+        <section class="banner_area "  style="background-image: url(./assets/img/NewYearEve2022Party.webp);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner_title">
-                            <h2>OUR GALLERY</h2>
+                            <h2>New Year Eve 2022 Party</h2>
                         </div>
                     </div>
                 </div>
@@ -142,14 +142,30 @@
         <section class="gallery-area sec__padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300" >
-                        <div class="gallery__blk">
-                            <i>
-                                <img src="assets/img/NewYearEve2022Party.webp" alt="">
-                            </i>
-                            <h5>New Year Eve 2022 Party</h5>
-                            <a href="./details.jsp" class="">view</a>
+                    <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="300" >
+                        <div class="all_the_item_imgs"> 
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/002.webp"><img src="assets/img/gallery/002.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/003.webp"><img src="assets/img/gallery/003.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/004.webp"><img src="assets/img/gallery/004.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/005.webp"><img src="assets/img/gallery/005.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/006.webp"><img src="assets/img/gallery/006.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/007.webp"><img src="assets/img/gallery/007.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/008.webp"><img src="assets/img/gallery/008.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/009.webp"><img src="assets/img/gallery/009.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/010.webp"><img src="assets/img/gallery/010.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/011.webp"><img src="assets/img/gallery/011.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/012.webp"><img src="assets/img/gallery/012.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/013.webp"><img src="assets/img/gallery/013.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/014.webp"><img src="assets/img/gallery/014.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/015.webp"><img src="assets/img/gallery/015.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/016.webp"><img src="assets/img/gallery/016.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/017.webp"><img src="assets/img/gallery/017.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/018.webp"><img src="assets/img/gallery/018.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/019.webp"><img src="assets/img/gallery/019.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/020.webp"><img src="assets/img/gallery/020.webp"></a>
+                            <a class="venobox" data-gall="mygallery" data-title="this is another image" href="assets/img/gallery/032.webp"><img src="assets/img/gallery/032.webp"></a>
                         </div>
+ 
                     </div>
                 </div>
             </div>
@@ -214,7 +230,13 @@
     <script src="assets/js/owl.carousel.min.js"></script> 
     <script src="assets/js/semantic.min.js"></script>  
     <script src="assets/js/jquery.nice-select.min.js"></script> 
+    <script src="assets/js/venobox.min.js"></script> 
     <script src="assets/js/main.js"></script> 
+    <script>
+        $(document).ready(function(){
+            $('.venobox').venobox(); 
+        }); 
+    </script>
 </body>
 </html>
 
